@@ -10,6 +10,7 @@ class CustomExceptionHandling implements Exception {
 
 void main() {
   try {
+    ///Our code logic is here, if any error occured it will throw customexception.
     throw CustomExceptionHandling("Data not recieved from server", 404);
   } catch (e) {
     print(e);
